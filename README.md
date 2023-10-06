@@ -18,25 +18,25 @@
         <li><a href="#contributing">Contributing</a></li>
         <li><a href="#license">License</a></li>
     </ul>
-
+<pre>
     <h2 id="introduction">Introduction</h2>
     <p>This web server serves as a foundation for building web applications that require basic CRUD functionality for managing student records. It uses SQLite as a backend database for storing student information.</p>
-
+<pre>
     <h2 id="getting-started">Getting Started</h2>
     <h3>Prerequisites</h3>
     <ul>
         <li>SQLite3</li>
         <li>[Add other prerequisites if necessary]</li>
     </ul>
-    
+    <pre></pre>
     <h3>Installation</h3>
     <ol>
         <li>Clone the repository:</li>
     </ol>
 
-    ```shell
+<pre>
     git clone https://github.com/your/repository.git
-    ```
+
 
     <ol start="2">
         <li>[Add any additional installation steps if required]</li>
@@ -56,7 +56,7 @@
 
     <h3>Retrieve Students (GET)</h3>
     <pre>GET /students</pre>
-
+<pre>
     <h3>Add Student (POST)</h3>
     <pre>
     POST /add
@@ -64,7 +64,7 @@
 
     name=John&age=20&grade=A
     </pre>
-
+<pre>
     <h3>Update Student (POST)</h3>
     <pre>
     POST /update
@@ -72,7 +72,7 @@
 
     id=1&name=UpdatedName&age=25&grade=B
     </pre>
-
+<pre>
     <h3>Delete Student (POST)</h3>
     <pre>
     POST /delete
@@ -80,7 +80,7 @@
 
     id=2
     </pre>
-
+<pre>
     <h2 id="contributing">Contributing</h2>
     <p>If you'd like to contribute to this project, please follow these guidelines:</p>
     <ol>
@@ -92,5 +92,6 @@
 
     <h2 id="license">License</h2>
     <p>This project is licensed under the [License Name]. Please see the LICENSE file for details.</p>
+    </pre>
 </body>
 </html>
